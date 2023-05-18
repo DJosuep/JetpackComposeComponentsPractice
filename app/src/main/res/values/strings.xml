@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">JetpackComposeComponentsPractice</string>
+
+    //BubbleIcon
+    <string name="Notes">Notes</string>
+
 </resources>
