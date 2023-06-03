@@ -30,6 +30,7 @@ fun BubbleIcon(icon: Int, description: Int){
         IconButton(
             onClick = { /*TODO*/ }
         ) {
+            Icon(
                 painter = painterResource(id = icon),
                 contentDescription = stringResource(id = description),
                 modifier = Modifier.fillMaxSize(0.8f)
