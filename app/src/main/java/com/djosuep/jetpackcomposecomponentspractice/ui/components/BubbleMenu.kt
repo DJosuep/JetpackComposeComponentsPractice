@@ -5,10 +5,6 @@ import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.core.animateDpAsState
 import androidx.compose.animation.scaleIn
 import androidx.compose.animation.scaleOut
-import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.combinedClickable
-import androidx.compose.foundation.gestures.detectTapGestures
-import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -37,7 +33,6 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.input.pointer.pointerInput
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
@@ -47,7 +42,6 @@ import androidx.compose.ui.unit.dp
 fun FloatingBubbleNavigationButton(){
 
     var showNavigation by remember{ mutableStateOf(false) }
-    var showMenu by remember{ mutableStateOf(false) }
     var isChecked by remember{ mutableStateOf("Home") }
 
     val animatedCorners: Dp by animateDpAsState(targetValue = if (showNavigation) 16.dp else 50.dp)
@@ -70,16 +64,10 @@ fun FloatingBubbleNavigationButton(){
                 FloatingActionButton(
                     shape = RoundedCornerShape(animatedCorners),
                     modifier = Modifier
-                        .size(height = 56.dp, width = animatedWidth)
-                        /*.combinedClickable(
-                            interactionSource = MutableInteractionSource(),
-                            onLongClick = {
-
-                            }
-                        )*/,
+                        .size(height = 56.dp, width = animatedWidth),
                     onClick = {
                         if(!showNavigation){
-                            showMenu = !showMenu
+                            showNavigation = !showNavigation
                         }
                     }
                 ) {
@@ -90,7 +78,7 @@ fun FloatingBubbleNavigationButton(){
                         ) {
                             for((icon, description) in icons){
                                 IconToggleButton(
-                                    checked = if(description.equals(isChecked)) true else false,
+                                    checked = description == isChecked,
                                     onCheckedChange = {
                                         isChecked = description
 
