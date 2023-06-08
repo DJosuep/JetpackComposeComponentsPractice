@@ -4,7 +4,7 @@ Hello! Here you'll be able to find some custom components for **Jetpack Compose*
 
 The components will be ready to copy or modify in */ui/components.
 
-1. Check the published branches if you cannot find the components mentioned below.
+* Check the published branches if you cannot find the components mentioned below.
 
 # **Components available (for now):**
 
