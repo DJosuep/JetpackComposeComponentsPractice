@@ -8,18 +8,23 @@ The components will be ready to copy or modify in */ui/components.
 
 # **Components available (for now):**
 
-* Finished components:
+<details><summary> Finished components: </summary>
+  
+* Bubble icon.
+* Image card.
 
--Bubble icon.
--Image card.
+<details>
+  
+<details><summary>In development: </summary>
 
-* In development:
+* Custom animated floating button (almost finished / able to be used).
 
--Custom animated floating button (almost finished / able to be used).
+<details>
+  
+<details><summary>Planned: </summary>
 
-* Planned:
+* Image card with user.
 
--Image card with user.
-
-
+<details>
+  
 More will be added over time.
