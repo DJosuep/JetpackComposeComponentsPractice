@@ -10,16 +10,16 @@ The components will be ready to copy or modify in */ui/components.
 
 * Finished components:
 
-- Bubble icon.
-- - Image card.
+-Bubble icon.
+-Image card.
 
 * In development:
 
-- Custom animated floating button (almost finished / able to be used).
+-Custom animated floating button (almost finished / able to be used).
 
 * Planned:
 
-- Image card with user.
+-Image card with user.
 
 
 More will be added over time.
