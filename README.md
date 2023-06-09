@@ -12,18 +12,23 @@ The components will be ready to copy or modify in */ui/components.
   
 * Bubble icon.
 * Image card.
+* Sliding images card.
+  
+Available in main.
 
 </details>
   
-<details><summary>In development: </summary>
+<details><summary>In development (only in branches): </summary>
 
-* Custom animated floating button (almost finished / able to be used).
+* Animated floating navigation button (almost finished / able to be used).
 
+Only available in published/private branches.
+  
 </details>
   
 <details><summary>Planned: </summary>
 
-* Image card with user.
+* ...
 
 </details>
   
