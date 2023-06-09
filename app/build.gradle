@@ -66,4 +66,10 @@ dependencies {
 
     //Icons extended
     implementation("androidx.compose.material:material-icons-extended")
+
+    //Carousel slider
+    implementation("com.google.accompanist:accompanist-pager:0.20.0")
+
+    //Coil: image from URL
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }
