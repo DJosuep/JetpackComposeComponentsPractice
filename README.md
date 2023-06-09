@@ -10,6 +10,6 @@ The components will be ready to copy or modify in */ui/components.
 
 * Bubble icon (finished).
 * Custom animated floatin button (almost finished, but able to be used).
-* Image card (under development).
+* Image card (finished).
 
 More will be added over time.
