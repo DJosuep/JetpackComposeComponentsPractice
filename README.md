@@ -13,18 +13,18 @@ The components will be ready to copy or modify in */ui/components.
 * Bubble icon.
 * Image card.
 
-<details>
+</details>
   
 <details><summary>In development: </summary>
 
 * Custom animated floating button (almost finished / able to be used).
 
-<details>
+</details>
   
 <details><summary>Planned: </summary>
 
 * Image card with user.
 
-<details>
+</details>
   
 More will be added over time.
