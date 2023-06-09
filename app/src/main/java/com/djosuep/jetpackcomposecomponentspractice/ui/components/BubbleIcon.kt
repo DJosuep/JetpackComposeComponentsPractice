@@ -28,7 +28,9 @@ fun BubbleIcon(icon: Int, description: Int){
             .shadow(elevation = 5.dp, shape = CircleShape)
     ) {
         IconButton(
-            onClick = { /*TODO*/ }
+            onClick = {
+                /*TODO*/
+            }
         ) {
             Icon(
                 painter = painterResource(id = icon),
