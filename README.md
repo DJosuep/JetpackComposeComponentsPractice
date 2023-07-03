@@ -6,7 +6,7 @@ The components will be ready to copy or modify in */ui/components.
 
 * Check the published branches if you can't find the components mentioned below.
 
-# **Components available (for now):**
+# **Components available (so far):**
 
 <details><summary> Finished components: </summary>
   
